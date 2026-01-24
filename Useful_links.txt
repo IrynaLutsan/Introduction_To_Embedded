@@ -1,0 +1,3 @@
+https://gitlab.com/jjchico-edc/avr-bare
+https://www.nongnu.org/avr-libc/user-manual/modules.html
+
