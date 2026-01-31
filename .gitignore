@@ -1,6 +1,49 @@
 .DS_Store
-*.o 
-*.elf 
-*.hex 
-*.map 
-*.lst 
+
+# --- Arduino IDE Build Artifacts ---
+# These are generated during compilation
+build/
+bin/
+*.hex
+*.elf
+*.o
+*.d
+*.a
+*.eep
+*.lst
+*.rel
+*.sym
+*.lss
+*.map
+
+# --- IDE Specific Files ---
+# Arduino IDE 2.0+ internal settings
+.arduinoIDE/
+
+# VS Code (if you use the Arduino extension)
+.vscode/
+.gcc-flags.json
+.clang-kit
+.clang-format
+
+# CLion / CMake
+cmake-build-*/
+CMakeLists.txt.user
+
+# Visual Micro (Visual Studio extension)
+__vm/
+
+# --- Libraries and Dependencies ---
+# Generally, it's better to manage libraries via the Library Manager, 
+# but if you have local copies, you might want to ignore them.
+# libraries/
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- Project Specific ---
+# Ignore secret files (e.g., wifi credentials)
+secrets.h
