@@ -17,7 +17,7 @@ typedef struct FSM_Event_Tag
 typedef uint8_t FSM_State; /* status returned from a state-handler function */
 
 /* state-handler function */
-typedef FSM_State (*FSM_StateHandler)  (void *me, FSM_Event const *e);
+typedef FSM_State (*FSM_StateHandler)(void *me, FSM_Event const *e);
 
 /* Finite State Machine */
 typedef struct FSM_Tag
