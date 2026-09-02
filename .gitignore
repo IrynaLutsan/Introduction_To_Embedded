@@ -15,6 +15,8 @@ bin/
 *.sym
 *.lss
 *.map
+*.out
+*.exe
 
 # --- IDE Specific Files ---
 # Arduino IDE 2.0+ internal settings
